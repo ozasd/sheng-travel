@@ -5,92 +5,158 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>形象網站</title>
-    <link rel="stylesheet" href="./css/index.css">
 
-   
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
 </head>
 
-<body style="margin: 0;padding: 0;">
-    <div class="navbar">
-        <div class="row" style="justify-content: center;align-items:center">
-            <div class="col-5">
-                <div style="padding-left: 50px;">
-                    <a href="./index.html">
-                        <img class="logo"  src="./img/logo-Photoroom.png" alt="logo">
-                    </a>
-                </div>
-                
-            
+<body>
+    <div class="navbars">
+        <div class="row   justify-content-center align-items-baseline ">
+            <div class="col-6">
+                <img class="logo" src="./img/logo-Photoroom.png" alt="">
             </div>
-            <div class="col-5">
-                <div class="row" style="justify-content:space-evenly; ">
-                    <div  style="padding: 2px;">
-                        <a class="navitem" href="">
+            <div class="col-6">
+                <div class="row justify-content-end">
+                    <div class="col-auto ">
+                        <a href="#" class="navItem">
                             關於我們
                         </a>
                     </div>
-                    <div style="padding: 2px;">
-                        <a class="navitem" href="./about.html">
-                            節慶特定
+                    <div class="col-auto ">
+                        <a href="#" class="navItem">
+                            訂單查詢
                         </a>
                     </div>
-                    <div style="padding: 2px;">
-                        <a class="navitem" href="./about.html">
-                            精美行程
+                    <div class="col-auto ">
+                        <a href="#" class="navItem">
+                            商品介紹
                         </a>
                     </div>
-                    <div style="padding: 2px;">
-                        <a class="navitem" href="./about.html">
-                            聯絡我們
+                    <div class="col-auto ">
+                        <a href="#" class="navItem">
+                            了解更多
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        
-
     </div>
 
-    <div class="carousel">
-        <div class="carousel-item">
-            <img src="./img/bg1.jpg" alt="">
+
+    <div class="carousel-css">
+        <div class="carousel-item-css">
+            <img src="https://www.enjoyhot.com.tw/data/adv/202310/1698143995323956402.jpg" alt="">
             <div class="mask">
 
             </div>
             <div class='text'>
-                <p style="font-weight: bolder; font-size: 60px;">最美好的旅程就此展開 !</p>
-                <p>The most beautiful journey begins now </p>
+                <p style="font-weight: bolder; font-size: 60px;margin: 0;">最美好的旅程就此展開 !</p>
+                <p style="font-style: italic;">The most beautiful journey begins now </p>
                 <a href="./page/about.html"> 了解更多 </a>
 
             </div>
         </div>
-        <div class="carousel-item">
-            <img src="./img/bg2.jpg" alt="">
+        <div class="carousel-item-css">
+            <img src="https://www.enjoyhot.com.tw/data/adv/202404/1714207377498278884.jpg" alt="">
             <div class="mask">
 
             </div>
+            <!-- -------------------------------------------------------------------------------- -->
             <div class='text'>
-                <p style="font-weight: bolder; font-size: 45px;">探索未知的世界，旅程從此刻開始！</p>
-                <p>Discover the unknown, the journey starts now!</p>
+                <p style="font-weight: bolder; font-size: 45px;margin: 0;">探索未知的世界，旅程從此刻開始！</p>
+                <p style="font-style: italic;">Discover the unknown, the journey starts now!</p>
                 <a href="./page/about.html"> 了解更多 </a>
 
             </div>
+            <!-- -------------------------------------------------------------------------------- -->
 
         </div>
-        <div class="carousel-item">
-            <img src="./img/bg3.jpg" alt="">
+        <div class="carousel-item-css">
+            <img src="https://www.enjoyhot.com.tw/data/adv/202409/1727684136290378266.jpg" alt="">
             <div class="mask">
 
             </div>
             <div class='text'>
-                <p style="font-weight: bolder; font-size: 45px;">讓心靈自由飛翔，讓足跡遍布天涯。</p>
-                <p>Let your soul fly free, let your footprints reach the horizon.</p>
+                <p style="font-weight: bolder; font-size: 45px;margin: 0;">讓心靈自由飛翔，讓足跡遍布天涯。</p>
+                <p style="font-style: italic;">Let your soul fly free, let your footprints reach the
+                    horizon.
+                </p>
 
                 <a href="./page/about.html"> 了解更多 </a>
             </div>
 
         </div>
     </div>
+
+    <div class="container-fluid">
+        <div class="row align-items-center" style="height: 100vh;">
+            <div class="col-5 p-0" style="height: 100%;">
+                <div class="special-img">
+                    <img class="img-1" src="https://www.enjoyhot.com.tw/data/adv/202310/1698598804528349876.jpg" alt="">
+                    <p>值得擁有的好美味 !</p>
+                </div>
+            </div>
+
+            <div class="col-7 bg-1">
+                <div class="brand-story">
+                    <h3>品牌故事</h3>
+                    <h5>STORY</h5>
+                    <p>
+                        吃得開心吃得安心，一直都是我們的服務精神！
+                        Sheng Hot Pot 主要的經營團隊以七年級生為主，以傳承長輩的手藝及多年的經營經驗後，跳脫傳統的框架，以創新的經營方式帶給顧客全新的味蕾饗宴。
+                    </p>
+                    <button>查看更多</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="marquee">
+
+        <div class="view">
+            <div class="img-container">
+                <img src="./img/i_pic_l1.jpg" alt="">
+                <img src="./img/i_pic_l1.jpg" alt="">
+                <img src="./img/i_pic_l1.jpg" alt="">
+            </div>
+            <div class="img-container reverse">
+                <img src="./img/i_pic_l2.jpg" alt="">
+                <img src="./img/i_pic_l2.jpg" alt="">
+                <img src="./img/i_pic_l2.jpg" alt="">
+            </div>
+            <div class="img-container">
+                <img src="./img/i_pic_l3.jpg" alt="">
+                <img src="./img/i_pic_l3.jpg" alt="">
+                <img src="./img/i_pic_l3.jpg" alt="">
+            </div>
+
+            <div class="information">
+                <h1>Enjoy Hot. Enjoy Pot.</h1>
+                <p>邀您共享新的味覺體驗</p>
+                <div style="text-align: center;">
+                    <button>查看更多</button>
+
+                </div>
+    
+            </div>
+        </div>
+       
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+
 
 </body>
 
