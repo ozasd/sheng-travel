@@ -373,3 +373,53 @@ text-align: center; */
 .marquee .information button:hover{
     box-shadow: 0px 0px 10px white;
 }
+
+
+.orderlist{
+    height: 100vh;
+    width: 100%;
+    background-color: wheat;
+}
+
+.Card {
+    background-color: #212429;
+    border-radius: 20px;
+}
+.Card img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center center;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.Card-body {
+    padding: 20px;
+}
+.Card-body h3{
+    letter-spacing: 0.1rem;
+    font-weight: 900;
+    color: white;
+}
+.price{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: red;
+}
+.price::before{
+    content: 'NT: ';
+    color: white;
+}
+.btn-gold{
+    background-color: #dc9c55;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+}
